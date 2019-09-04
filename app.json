@@ -1,0 +1,30 @@
+{
+	"expo": {
+		"name": "Auz",
+		"slug": "Auz",
+		"privacy": "public",
+		"sdkVersion": "33.0.0",
+		"platforms": [ "ios", "android", "web" ],
+		"version": "2.0.4",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": [ "**/*" ],
+		"ios": {
+			"bundleIdentifier": "com.auzuz.auz",
+			"supportsTablet": true
+		},
+		"android": {
+			"package": "com.auz.auzapp",
+			"versionCode": 4
+		},
+		"description": ""
+	}
+}
